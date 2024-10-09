@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.title{
+    width: 50%;
+   margin-left: 40px;
+   padding: 20px;
+}
+
+.menus {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.menus a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50% ;
+
+    
+}
+.menus a{
+    text-decoration: none;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   
+}
+.content1 {
+        width: 50%; 
+        justify-content:space-around ; 
+        
+}
+.switch{
+    background-color: black;
+    width: 30%;
+    margin: 10px;
+}
+.content2{
+    justify-content:space-around ;
+    align-items: center; 
+}
+.image1{
+    height: 200px;
+    width: 400px;
+    background-color: block;
+}
+
+.container2{
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.content3{
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.content4{
+    justify-content: space-around;
+    width: 50%;
+}
+.image2{
+    height: 200px;
+    width: 400px;
+    background-color: block;
+}
+.title2{
+    width: 50%;
+   margin-left: 40px;
+   padding: 20px;
+}
+.container3{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    place-content: center;
+    gap: 20px;
+   
+}
+
+.title3{
+    text-align: center;
+}
+.content5{
+    text-align: center;
+    box-shadow: 3px  3px  3px  3px ;
+   
+
+}
+.content6{
+    text-align: center;
+    box-shadow: 3px  3px  3px  3px ;
+}
+.content7{
+    text-align: center;
+    box-shadow: 3px  3px  3px  3px ;
+}
+.content8{
+    text-align: center;
+    box-shadow: 3px  3px  3px  3px ;
+}
+.title4{
+    text-align: center;
+    padding:10px;
+}
+
+.container4{
+    padding: 10px;
+    align-items: center;
+    justify-content:space-around;
+    border: solid coral;
+    display: flex;
+    width: 60%;
+    
+    
+}
+.content9{
+    text-align: center;
+}
+.content10{
+    align-items: center;
+    place-content: center;
+}
+.image3{
+    height: 200px;
+    width: 180px;
+    border-radius: 100%;
+
+}
+.container5{
+    justify-content: space-around;
+    border: solid coral;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    padding: 10px;
+
+}
+.content11{
+    text-align: center;
+
+}
+.content12{
+    align-items: center;
+}
+.image4{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.container6{
+    justify-content: space-around;
+    align-items: center;
+    border: solid coral;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.content13{
+    text-align: center;
+}
+.content14{
+    align-items: center;
+}
+.image5{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.container7{
+    justify-content: space-around;
+    border: solid coral;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    padding: 10px;
+
+}
+.content15{
+    text-align: center;
+    
+}
+.content16{
+    align-items: center;
+}
+.image6{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.title5{
+    text-align: center;
+    padding: 10px;
+}
+.container8{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    
+}
+.content17 {
+    text-align: center;
+    
+}
+
+.content18 {
+    text-align:center ;
+    
+
+}
+.content19{
+    text-align: center;
+    align-items: center;
+}
+.content20{
+    text-align: center;
+    
+}
+hr{
+    margin:5px;
+}
+.btn1{
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+}
+@media only screen and (min-width:300px) and (max-width:700px){
+    .container1{
+       /* display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        */
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .menus{
+        flex-direction: column;
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        background-color: black;
+        color: white;
+    }
+    .menus a{
+        padding: 10px;
+    }
+    .nav{
+        position: sticky;
+        top:0;
+    }
+    
+    
+    .container2{
+        /* display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        */
+        flex-direction: column;
+        place-items:center;
+        justify-content: center;
+        margin: auto;
+
+    }
+    .container3{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .container4{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .title2{
+        margin: 0;
+    }
+    .container5{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .container6{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .container7{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .container8{
+        flex-direction: column; 
+}  
+}
